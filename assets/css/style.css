@@ -31,7 +31,6 @@ GENERAL STYLE
 }
 
 
-
 /* ================================
 Page 1 Style
 ================================= */
@@ -46,7 +45,6 @@ header p {
 #WORK {
     width: 100%;
     height: 160vh;
-
     background-color: #fff;
 }
 
@@ -96,6 +94,11 @@ Page 2 Style
 
 }
 
+#ORBIS .bgopac {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
+
 #ORBIS .info {
     width: 600px;
     height: 1000px;
@@ -129,24 +132,18 @@ Page 2 Style
     text-transform: uppercase;
     text-decoration: transparent;
 
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     width: fit-content;
     padding: 20px;
     margin-top: 90px;
     margin-left: 25px;
 }
 
-#ORBIS .button {}
-
-.number:active {
-    color: #fff;
-}
-
 #ORBIS .number {
 
     font-size: 160px;
     font-family: 'Fjalla One', sans-serif;
-    color: #9e9e9e;
+    color: rgba(255, 255, 255, 0.1);
     text-align: right;
     margin-right: -480px;
 }
@@ -154,7 +151,10 @@ Page 2 Style
 /* ===========================
 active FX Button
 ====================================== */
-
+#ORBIS .button p:hover {
+    color: #000;
+    background: #fff;
+}
 
 
 
@@ -212,11 +212,7 @@ Page 3 Style
     margin-left: 25px;
 }
 
-#ROLLR .button {}
 
-.number:active {
-    color: #fff;
-}
 
 #ROLLR .number {
 
@@ -225,6 +221,14 @@ Page 3 Style
     color: #666666;
     text-align: right;
     margin-right: -480px;
+}
+
+/* ===========================
+active FX Button
+====================================== */
+#ROLLR .button p:hover {
+    color: #fff;
+    background: #000;
 }
 
 
@@ -239,6 +243,10 @@ Page 4 Style
     background-size: cover;
 }
 
+#GALITOS .bgopac {
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+}
 
 #GALITOS .info {
     width: 600px;
@@ -273,28 +281,29 @@ Page 4 Style
     text-transform: uppercase;
     text-decoration: transparent;
 
-    border: 1px solid white;
+    border: 1px solid rgba(255, 255, 255, 0.2);
     width: fit-content;
     padding: 20px;
     margin-top: 90px;
     margin-left: 25px;
 }
 
-#GALITOS .button {}
-
-.number:active {
-    color: #fff;
-}
-
 #GALITOS .number {
 
     font-size: 160px;
     font-family: 'Fjalla One', sans-serif;
-    color: #9e9e9e;
+    color: rgba(255, 255, 255, 0.1);
     text-align: right;
     margin-right: -480px;
 }
 
+/* ===========================
+active FX Button
+====================================== */
+#GALITOS .button p:hover {
+    color: #000;
+    background: #fff;
+}
 
 
 
@@ -350,12 +359,6 @@ Page 5 Style
     margin-left: 25px;
 }
 
-#TRETTO .button {}
-
-.number:active {
-    color: #fff;
-}
-
 #TRETTO .number {
 
     font-size: 160px;
@@ -365,7 +368,13 @@ Page 5 Style
     margin-right: -480px;
 }
 
-
+/* ===========================
+active FX Button
+====================================== */
+#TRETTO .button p:hover {
+    color: #fff;
+    background: #000;
+}
 
 
 /* ================================
